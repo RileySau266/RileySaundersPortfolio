@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(246, 233, 178); /* Main background color */
+  color: rgb(10, 104, 71); /* Main text color */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  min-height: 100vh; /* Ensure the body takes up the full height of the viewport */
+}
+
+.main-content {
+  width: 95%; /* Width relative to the viewport */
+  max-width: 1200px; /* Maximum width of the main content */
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.jumbotron {
+  background-color: rgb(243, 202, 82);
+  color: rgb(10, 104, 71);
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px; /* Space below the jumbotron */
+}
+
+.divider {
+  height: 2px; /* Thickness of the divider */
+  background-color: rgb(10, 104, 71); /* Color of the divider */
+  margin: 100px 0; /* Space above and below the divider */
+}
+
+.container-fluid.bg-3 {
+  background-color: rgb(246, 233, 178); /* Match the body background color */
+  margin-bottom: 20px; /* Space below the gallery section */
+}
+
+.about {
+  font-size: large;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  padding: 10px;
+}
