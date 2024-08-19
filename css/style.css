@@ -7,6 +7,7 @@ body {
   justify-content: center; /* Center content horizontally */
   align-items: center; /* Center content vertically */
   min-height: 100vh; /* Ensure the body takes up the full height of the viewport */
+  word-spacing: 107%;
 }
 
 .main-content {
@@ -21,6 +22,7 @@ body {
   color: rgb(10, 104, 71);
   font-family: 'Poppins', sans-serif;
   margin-bottom: 20px; /* Space below the jumbotron */
+  border-radius: 5px;
 }
 
 .divider {
@@ -39,4 +41,12 @@ body {
   line-height: 1.6;
   margin-bottom: 20px;
   padding: 10px;
+}
+
+.footer {
+  background-color: rgb(243, 202, 82);
+  color: rgb(10, 104, 71);
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px; /* Space below the jumbotron */
+  border-radius: 5px;
 }
